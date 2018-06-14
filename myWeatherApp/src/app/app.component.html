@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+<div class="parent">
+  <h1>
+      Weather Forecast
+  </h1>
+  <h3>In Fahrenheit</h3>
+  <div class="links">
+    <a [routerLink]="['seattle']">Seattle</a>
+    <a [routerLink]="['washington']">Washington D.C.</a>
+    <a [routerLink]="['sanjose']">San Jose</a>
+    <a [routerLink]="['dallas']">Dallas</a>
+    <a [routerLink]="['chicago']">Chicago</a>
+    <a [routerLink]="['burbank']">Burbank</a>
+
+  </div>
+
+<router-outlet></router-outlet> 
+
+</div>
+</body>
+</html>

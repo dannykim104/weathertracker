@@ -1,0 +1,11 @@
+.parent{
+    text-align: center;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.parent img{
+    width: 600px;
+    height: 350px;
+    margin-top: 30px;
+}

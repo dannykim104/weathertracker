@@ -1,0 +1,16 @@
+.parent{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.links a{
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: lightgrey;
+}
